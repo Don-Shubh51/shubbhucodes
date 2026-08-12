@@ -1,3 +1,6 @@
+import streamlit as st
+st.title("Factorial finder")
+
 number = int(input("Enter the number: "))
 
 def fact():
